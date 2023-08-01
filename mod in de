@@ -1,0 +1,35 @@
+package com.java.anu;
+
+public class demo {
+	int a=10,b=20;
+	int mod,in,de;
+	
+	public void modulus() {
+		mod=b%a;
+		System.out.println("Modulus : "+mod);
+	}
+	
+	public void increment() {
+		a++;
+		System.out.println("Increment of a : "+a);
+		++a;
+		System.out.println("Increment of a : "+a);
+	}
+	
+	public void decrement() {
+		b--;
+		System.out.println("Decrement of b : "+b);
+		--b;
+		System.out.println("Decrement of b : "+b);
+	}
+
+	public static void main(String[] args) {
+		
+	    demo dem = new demo();
+	    
+	    dem.modulus();
+	    dem.increment();
+	    dem.decrement();
+	}
+
+}
